@@ -64,10 +64,27 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+<style>
+    @media screen and (max-width: 800px)  {
+        #github {
+            display: none;
+        }
+        .side {
+            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+    }
+
+</style>
+
 
   </head>
   <body style="background-color: #ffffff">
-   <a href='https://github.com/mahediazad/mahediazad.github.io'><img style="position: absolute; top: 0; right: 0; border: 0;" src="img/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+   <a id="github" href='https://github.com/mahediazad/mahediazad.github.io'><img style="position: absolute; top: 0; right: 0; border: 0;" src="img/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -99,7 +116,7 @@
             <h2>Education</h2>
             <ul id="education" class="clearfix">
               <li>
-                <div class="year pull-left">Now</div>
+                <div class="year pull-left side">Now</div>
                 <div class="description pull-right">
                   <h3>BSc in Computer Science and Engineering</h3>
 	          <h4>National University, Bangladesh (Session: 2008 - 2009) </h4>
@@ -107,7 +124,7 @@
                 </div>
               </li>
               <li>
-                <div class="year pull-left">2007</div>
+                <div class="year pull-left side">2007</div>
                 <div class="description pull-right">
                   <h3>Higher Secondary School Certificate (HSC)</h3>
 		  <h4>Rajshahi Govt. City College, Rajshahi (Session: 2006 - 2007)</h4>
@@ -115,7 +132,7 @@
                 </div>
               </li>
               <li>
-                <div class="year pull-left">2005</div>
+                <div class="year pull-left side">2005</div>
                 <div class="description pull-right">
                   <h3>Secondary School Certificate (SSC)</h3>
 		  <h4>Phelipnagar High School, Kushtia (Session: 2004 - 2005 )</h4>
